@@ -1,0 +1,6 @@
+id: pancake-house
+name: Pancake House
+description: A collection of challenges
+type: hidden
+modules:
+  - id: cheese

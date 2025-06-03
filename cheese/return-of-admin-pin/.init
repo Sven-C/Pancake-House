@@ -1,0 +1,17 @@
+#!/usr/bin/env python3
+
+import pathlib
+
+to_remove = [
+    pathlib.Path(p) for p in ('/challenge/run', '/challenge/chat-server')
+]
+
+for path in to_remove:
+    path.unlink()
+
+pathlib.Path('/challenge/run.py').chmod(0o4755)
+pathlib.Path('/challenge/check-admin-pin').chmod(0o755)
+pathlib.Path('/challenge/DESCRIPTION.md').chmod(0o644)
+
+pathlib.Path(__file__).unlink()
+

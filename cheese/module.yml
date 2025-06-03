@@ -1,0 +1,6 @@
+name: Cheese
+challenges:
+  - id: return-of-admin-pin
+    name: Return of the Admin Pin
+    image: pwncollege/challenge-secure-chat-5
+
