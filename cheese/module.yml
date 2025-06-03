@@ -1,0 +1,5 @@
+name: Cheese
+challenges:
+  - id: return_of_admin_pin
+    name: Return of the Admin Pin
+
